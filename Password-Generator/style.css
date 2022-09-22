@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #6DC1F2, #24A5F0, #1C82BD, #114D70);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.corpo-senha {
+    background-color: #fff;
+    min-width: 420px;
+    border-radius: 15px;
+    border: 1px solid #8a8989;
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.397);
+}
+
+.resultado {
+    padding: 15px;
+}
+
+.senha {
+    background-color: #646464 ;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.senha button {
+    background-color: white;
+    border: none;
+    color: #24A5F0;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px;
+    position: absolute;
+    top: 68%;
+    right: 40%;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    width: 80px;
+    border-radius: 20px;
+    border: 2px solid #24A5F0;
+}
+
+.botoes {
+    padding: 0 15px 15px;
+}
+
+.control {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+.gerar {
+    background-color: #3abdd4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gerar:hover {
+    background-color: #2c8696;
+}
